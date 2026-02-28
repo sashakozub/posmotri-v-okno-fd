@@ -9,7 +9,7 @@ html {
 }
 
 .page {
-  display:flex;
+  display: flex;
   inline-size: 1140px;
   block-size: 100%;
   margin: auto;
@@ -18,7 +18,7 @@ html {
   font-size: 18px;
   background-color: #1b1919;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .content {
@@ -27,9 +27,6 @@ html {
   align-items: flex-end;
   width: 1140px;
   gap: 30px;
-}
-.result {
-  
 }
 
 .search-form {
@@ -40,11 +37,6 @@ html {
   width: 100%; 
   gap:40px;
   margin-top: 20px;
-}
-
-.content__list-container {
-  height: 298px;
-  overflow-y: auto;
 }
 
 .content__details {
@@ -91,7 +83,7 @@ ol {
   width: 711px;
   height: 386px;
   margin-bottom: 16px;
-  position: relative; 
+  position: relative;
 }
 
 .result__video {
@@ -107,10 +99,12 @@ ol {
 }
 
 .content__list-container {
+  height: 298px;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  position: relative; 
+  position: relative;
 }
 
 .content__video-card {
